@@ -1,0 +1,97 @@
+toxiguard/
+├── .gitignore [✓] Implemented
+├── README.md [✗] Missing
+├── package.json [✗] Missing
+├── frontend/
+│   ├── public/ [✗] Missing configurations
+│   │   ├── index.html [✗] Missing
+│   │   ├── favicon.ico [✗] Missing
+│   │   └── manifest.json [✗] Missing
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── auth/ [Partial]
+│   │   │   │   ├── Login.jsx [✗] Missing
+│   │   │   │   ├── Register.jsx [✗] Missing
+│   │   │   │   └── ProtectedRoute.jsx [✗] Missing
+│   │   │   ├── admin/ [Partial]
+│   │   │   │   ├── AdminDashboard.jsx [✗] Missing
+│   │   │   │   ├── UserManagement.jsx [✗] Missing
+│   │   │   │   ├── LogViewer.jsx [✓] Implemented
+│   │   │   │   ├── ApiKeyManager.jsx [✓] Implemented
+│   │   │   │   └── MongoUrlManager.jsx [✓] Implemented
+│   │   │   ├── user/ [Partial]
+│   │   │   │   ├── UserDashboard.jsx [✓] Implemented
+│   │   │   │   ├── CommentModeration.jsx [✓] Implemented
+│   │   │   │   └── Profile.jsx [✗] Missing
+│   │   │   └── common/ [✗] Missing
+│   │   │       ├── Navbar.jsx [✗] Missing
+│   │   │       ├── Footer.jsx [✗] Missing
+│   │   │       └── Loading.jsx [✗] Missing
+│   │   ├── services/
+│   │   │   ├── authService.js [✓] Implemented
+│   │   │   ├── commentService.js [✓] Implemented
+│   │   │   ├── userService.js [✗] Missing
+│   │   │   └── apiService.js [✗] Missing
+│   │   ├── utils/
+│   │   │   ├── theme.js [✓] Implemented
+│   │   │   ├── constants.js [✗] Missing
+│   │   │   └── helpers.js [✗] Missing
+│   │   ├── context/
+│   │   │   ├── AuthContext.jsx [✗] Missing
+│   │   │   └── SnackbarContext.jsx [✗] Missing
+│   │   ├── App.jsx [✓] Implemented
+│   │   ├── index.jsx [✗] Missing
+│   │   └── styles/
+│   │       └── globals.css [✗] Missing
+│   └── package.json [✗] Missing
+└── backend/
+    ├── src/
+    │   ├── config/
+    │   │   ├── database.js [✓] Implemented
+    │   │   └── config.js [✗] Missing
+    │   ├── controllers/
+    │   │   ├── authController.js [✓] Implemented
+    │   │   ├── userController.js [✗] Missing
+    │   │   ├── commentController.js [✓] Implemented
+    │   │   ├── adminController.js [✓] Implemented
+    │   │   └── logController.js [✗] Missing
+    │   ├── middleware/
+    │   │   ├── auth.js [✓] Implemented
+    │   │   ├── errorHandler.js [✗] Missing
+    │   │   ├── requestLogger.js [✗] Missing
+    │   │   └── validators.js [✗] Missing
+    │   ├── models/
+    │   │   ├── User.js [✓] Implemented
+    │   │   ├── Log.js [✓] Implemented
+    │   │   ├── ApiKey.js [✓] Implemented
+    │   │   └── MongoUrl.js [✓] Implemented
+    │   ├── routes/
+    │   │   ├── auth.js [✗] Missing
+    │   │   ├── user.js [✗] Missing
+    │   │   ├── admin.js [✗] Missing
+    │   │   └── comment.js [✗] Missing
+    │   ├── utils/
+    │   │   ├── groqHelper.js [✓] Implemented
+    │   │   ├── mongoHelper.js [✓] Implemented
+    │   │   └── logger.js [✓] Implemented
+    │   └── app.js [✗] Missing
+    ├── .env.example [✓] Implemented
+    └── package.json [✗] Missing
+
+Missing Key Files:
+1. Root package.json
+2. README.md
+3. Frontend package.json
+4. Backend package.json
+5. Frontend public files
+6. Authentication components
+7. Some admin components
+8. Common components
+9. User Profile component
+10. Context providers
+11. Route files
+12. Configuration files
+13. Error handlers and validators
+14. Main application entry points
+
+Would you like me to implement any of these missing components next?
